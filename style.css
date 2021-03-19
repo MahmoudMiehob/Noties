@@ -1,0 +1,75 @@
+:root{
+    --main-color: blue ;
+}
+body{
+
+    background-color: #f6f6f6 !important;
+}
+nav .nav-wrapper{
+
+    padding-right: 20px;
+}
+nav .brand-logo{
+
+    padding-left: 20px;
+}
+.sidenav{
+
+    padding-top: 30px;
+}
+.About{
+    text-align: left;
+    font-size: 20px;
+}
+
+h4 , .About{
+    font-style: italic;
+}
+.lable{
+
+    font-size: 15px;
+    color: blue;
+
+}
+.articles{
+
+    padding-top: 25px;
+}
+
+input:active{
+
+    border-bottom-color: blue !important;
+}
+.btn{
+
+    width: 100px;
+    margin-top: 25px;
+}
+.btn:hover{
+    color: black;
+}
+.container{
+
+    width: 85%;
+}
+.article{
+    background-color: white !important ;
+    padding: 20px;
+    margin-top: 35px;
+}
+.article button{
+
+    padding: 10px;
+    color: white;
+    background-color: var(--main-color) !important;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.article .container p{
+
+    font-size: 20px;
+    font-weight: 100;
+}
